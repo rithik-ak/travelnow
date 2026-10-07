@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - echo "Deploying TravelNow website to S3..."
+      - aws s3 sync . s3://YOUR_BUCKET_NAME --exclude ".git/*" --exclude "buildspec.yml"
+      - echo "Invalidating CloudFront cache..."
+      - aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
+      - echo "Deployment completed successfully."

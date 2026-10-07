@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelNow – Smart Travel & Destination Explorer</title>
+    <meta name="description" content="Discover amazing destinations, plan your perfect trip, and experience travel like never before with TravelNow.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Travel<span>Now</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#destinations" class="btn-primary">Explore Now</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>Explore the World. Create Unforgettable Memories.</h1>
+            <p>Discover amazing destinations, plan your perfect trip, and experience travel like never before.</p>
+            <div class="hero-buttons">
+                <a href="#destinations" class="btn-primary">Explore Destinations</a>
+                <a href="#packages" class="btn-secondary">View Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS SECTION -->
+    <section id="destinations" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Popular Destinations</h2>
+            <div class="grid-container fade-in">
+                
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Paris</h3>
+                        <p>The city of love, lights, and endless romance.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹45,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Dubai</h3>
+                        <p>Experience the perfect blend of modern luxury and tradition.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹35,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Bali</h3>
+                        <p>A tropical paradise of beaches, temples, and culture.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹25,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Switzerland</h3>
+                        <p>Majestic Alps, pristine lakes, and picturesque villages.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹65,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Tokyo</h3>
+                        <p>Where ultra-modern meets traditional heritage.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹55,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card destination-card">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="card-content">
+                        <h3>Maldives</h3>
+                        <p>Crystal clear waters and overwater luxury villas.</p>
+                        <div class="card-footer">
+                            <span class="price">From ₹75,000</span>
+                            <button class="btn-sm">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVEL PACKAGES SECTION -->
+    <section id="packages" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Travel Packages</h2>
+            <div class="grid-container grid-3 fade-in">
+                
+                <div class="card package-card">
+                    <div class="card-header basic">Basic Explorer</div>
+                    <div class="card-content">
+                        <ul>
+                            <li>✓ 3 Days / 2 Nights</li>
+                            <li>✓ Standard Hotel</li>
+                            <li>✓ Local sightseeing</li>
+                            <li>✗ Airport transfer</li>
+                        </ul>
+                        <div class="package-price">From ₹15,999</div>
+                        <button class="btn-primary w-100">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card package-card premium-card">
+                    <div class="card-header premium">Premium Traveller</div>
+                    <div class="card-content">
+                        <ul>
+                            <li>✓ 5 Days / 4 Nights</li>
+                            <li>✓ Premium hotel</li>
+                            <li>✓ Airport transfer</li>
+                            <li>✓ Guided sightseeing</li>
+                        </ul>
+                        <div class="package-price">From ₹29,999</div>
+                        <button class="btn-primary w-100">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card package-card">
+                    <div class="card-header luxury">Luxury Experience</div>
+                    <div class="card-content">
+                        <ul>
+                            <li>✓ 7 Days / 6 Nights</li>
+                            <li>✓ Luxury hotel</li>
+                            <li>✓ Private transport</li>
+                            <li>✓ Premium activities</li>
+                        </ul>
+                        <div class="package-price">From ₹59,999</div>
+                        <button class="btn-primary w-100">Book Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Why Choose Us</h2>
+            <div class="grid-container grid-4 fade-in">
+                
+                <div class="feature-card">
+                    <div class="icon">💰</div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We offer the best deals and competitive prices for all our travel packages.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">🤝</div>
+                    <h3>Trusted Partners</h3>
+                    <p>Collaborating with top-rated hotels, airlines, and local guides worldwide.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">📞</div>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated travel support team is always available to help you anywhere.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">✨</div>
+                    <h3>Customized Experiences</h3>
+                    <p>Tailor-made itineraries designed specifically for your unique preferences.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVEL STATISTICS -->
+    <section class="section stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="50000">0</h3>
+                    <p>Happy Travellers</p>
+                </div>
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="120">0</h3>
+                    <p>Destinations</p>
+                </div>
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>Travel Packages</p>
+                </div>
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="10">0</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVEL PLANNER -->
+    <section id="planner" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title fade-in">Plan Your Trip</h2>
+            <div class="planner-card fade-in">
+                <form id="plannerForm" class="planner-form">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination" required>
+                            <option value="">Select Destination</option>
+                            <option value="paris">Paris</option>
+                            <option value="dubai">Dubai</option>
+                            <option value="bali">Bali</option>
+                            <option value="switzerland">Switzerland</option>
+                            <option value="tokyo">Tokyo</option>
+                            <option value="maldives">Maldives</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="travellers">Travellers</label>
+                        <input type="number" id="travellers" min="1" placeholder="Number of people" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Travel Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget</label>
+                        <select id="budget" required>
+                            <option value="">Select Budget</option>
+                            <option value="economy">Economy (Under ₹20,000)</option>
+                            <option value="standard">Standard (₹20,000 - ₹50,000)</option>
+                            <option value="luxury">Luxury (Above ₹50,000)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary">Plan My Trip</button>
+                </form>
+                <div id="plannerMessage" class="success-message hidden">Your trip is being planned! Our team will contact you shortly.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">What Our Clients Say</h2>
+            <div class="grid-container grid-3 fade-in">
+                
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>"The Paris trip was organized perfectly. TravelNow took care of every detail, allowing us to just enjoy our vacation."</p>
+                    <div class="customer-name">- Sarah Johnson</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>"Exceptional service! The 24/7 support came in handy when our flight was delayed. Highly recommend their premium packages."</p>
+                    <div class="customer-name">- Michael Chen</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>"Our honeymoon in the Maldives was a dream come true. The resort they recommended was absolutely stunning."</p>
+                    <div class="customer-name">- Emma & David Smith</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-content fade-in">
+                <h2>Get Travel Inspiration</h2>
+                <p>Subscribe to our newsletter for the latest travel deals, destination guides, and exclusive offers.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+                <div id="newsletterMessage" class="success-message hidden">Thank you for subscribing to TravelNow!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Us</h2>
+            <div class="contact-container fade-in">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Have questions about a destination or need help planning your trip? Our team is here to help.</p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> info@travelnow.com</li>
+                        <li><strong>Phone:</strong> +1 (800) 123-4567</li>
+                        <li><strong>Location:</strong> 123 Travel Blvd, Explorer City, 90210</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#">📘 Facebook</a>
+                        <a href="#">📸 Instagram</a>
+                        <a href="#">🐦 Twitter</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-100">Send Message</button>
+                    </form>
+                    <div id="contactMessageSuccess" class="success-message hidden">Thank you! Your message has been sent successfully.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">Travel<span>Now</span></a>
+                    <p>Your ultimate partner for smart travel and destination exploration. We create unforgettable experiences worldwide.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#packages">Travel Packages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Destinations</h4>
+                    <ul>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Asia</a></li>
+                        <li><a href="#">Middle East</a></li>
+                        <li><a href="#">Americas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TravelNow. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
